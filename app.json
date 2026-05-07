@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Kant Copy",
+    "slug": "kantcopy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#0F766E" },
+    "scheme": "sallycards",
+    "ios": { "bundleIdentifier": "com.sallycards.kantcopy", "supportsTablet": true },
+    "android": { "package": "com.sallycards.kantcopy", "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0F766E" }, "usesCleartextTraffic": true },
+    "plugins": ["expo-router", "expo-localization", "expo-font"],
+    "newArchEnabled": true, "extra": { "eas": { "projectId": "sallycards-kantcopy" }, "usesCleartextTraffic": true }
+  }
+}
