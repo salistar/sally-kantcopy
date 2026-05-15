@@ -40,7 +40,7 @@ export default function JoinRoomScreen() {
   const loadRooms = async () => {
     try {
       log.bin('GET /rooms?gameType=kdoub');
-      const r = await api.listRoomsFull('concentration');
+      const r = await api.listRoomsFull('kantcopy');
       log.bout('200 /rooms', `${r.rooms.length} publiques`);
       setRooms(r.rooms);
     } catch (e) {

@@ -75,8 +75,8 @@ export default function HomeScreen() {
   };
 
   const handleVsBot = () => {
-    log.screen('nav → /game/local?mode=bot (Gemini)');
-    router.push('/game/local?mode=bot&botCount=1&difficulty=expert');
+    log.screen('nav → /game/solo?variant=vs-ai');
+    router.push('/game/solo?variant=vs-ai');
   };
 
   const handleSimulate = () => {

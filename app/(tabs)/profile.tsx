@@ -71,8 +71,8 @@ export default function ProfileScreen() {
       }
       // 2) /leaderboards/concentration/my-rank : best-effort
       try {
-        log.bin('GET /leaderboards/concentration/my-rank');
-        const r = await api.getMyRank('concentration', 'season');
+        log.bin('GET /leaderboards/kantcopy/my-rank');
+        const r = await api.getMyRank('kantcopy', 'season');
         log.bout('200 my-rank', r);
         setRank(r);
         log.explain('profil + rang chargés');

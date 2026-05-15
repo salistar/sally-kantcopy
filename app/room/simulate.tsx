@@ -89,8 +89,8 @@ const router = useRouter();
   const handleCreate = async () => {
     setCreating(true);
     try {
-      log.bin('POST /rooms/simulate', { gameType: 'concentration', userCount, method });
-      const room = await api.simulateRoom('concentration', userCount);
+      log.bin('POST /rooms/simulate', { gameType: 'kantcopy', userCount, method });
+      const room = await api.simulateRoom('kantcopy', userCount);
       log.bout('201 simulate', { code: room.code, method });
       log.explain(
         `simulation avec ${userCount} joueurs via ${method} → lobby`,

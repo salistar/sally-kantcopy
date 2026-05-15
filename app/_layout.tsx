@@ -38,7 +38,7 @@ function RootStackInner() {
         <Stack.Screen name="auth/login" />
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="game/[roomCode]" options={{ gestureEnabled: false }} />
-        <Stack.Screen name="game/local" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="game/solo" options={{ gestureEnabled: false }} />
         <Stack.Screen name="game/vs-bot" />
         <Stack.Screen name="room/create" />
         <Stack.Screen name="room/join" />

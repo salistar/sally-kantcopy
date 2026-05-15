@@ -89,7 +89,7 @@ export default function ScoreScreen() {
         <View style={styles.actions}>
           <TouchableOpacity
             style={styles.playAgainButton}
-            onPress={() => router.replace('/game/local?mode=bot&botCount=1')}
+            onPress={() => router.replace('/game/solo?variant=vs-ai')}
           >
             <Ionicons name="refresh" size={18} color="#fff" />
             <Text style={styles.playAgainText}>Rejouer</Text>

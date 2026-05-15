@@ -72,7 +72,7 @@ export default function ShopScreen() {
               log.apiIn(`RevenueCat Purchases.purchasePackage(${pkg.productId})`);
               log.apiOut(`SUCCESS purchaseId=${fakeId} (stub mode)`);
               log.bin('POST /shop/purchase/confirm', { productId: pkg.productId });
-              const out = await api.confirmPurchase('concentration', pkg.productId, fakeId, 'android');
+              const out = await api.confirmPurchase('kantcopy', pkg.productId, fakeId, 'android');
               log.bout('200 /shop/purchase/confirm', { amount: out.amount, balance: out.newBalance });
               log.explain(`+${out.amount} coins crédités — nouveau solde ${out.newBalance}`);
               if (user) setUser({ ...user, coins: out.newBalance });

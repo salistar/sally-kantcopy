@@ -36,8 +36,8 @@ export default function CreateRoomScreen() {
   const handleCreate = async () => {
     setCreating(true);
     try {
-      log.bin('POST /rooms', { gameType: 'concentration', maxPlayers, isPrivate });
-      const room = await api.createRoomFull('concentration', { maxPlayers, isPrivate });
+      log.bin('POST /rooms', { gameType: 'kantcopy', maxPlayers, isPrivate });
+      const room = await api.createRoomFull('kantcopy', { maxPlayers, isPrivate });
       log.bout('201 /rooms', { code: room.code, mode: room.mode });
       log.explain(`room ${room.code} créée (${room.mode}, max ${maxPlayers}j) → navigation vers le lobby`);
       router.replace(`/room/lobby?code=${room.code}`);

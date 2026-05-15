@@ -50,7 +50,7 @@ export default function LoginScreen() {
     console.log('[Concentration/LoginScreen] State update: loading = true');
     try {
       console.log('[Concentration/LoginScreen] Fetching login...');
-      await api.login(email, password, { gameType: 'concentration' });
+      await api.login(email, password, { gameType: 'kantcopy' });
       console.log('[Concentration/LoginScreen] Login successful');
       router.replace('/(tabs)');
     } catch (e: any) {

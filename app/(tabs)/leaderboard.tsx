@@ -45,8 +45,8 @@ export default function LeaderboardScreen() {
   const load = async () => {
     setLoading(true);
     try {
-      log.bin(`GET /leaderboards/concentration`, { scope, filter });
-      const r = await api.getLeaderboardScoped('concentration', filter, scope, 50);
+      log.bin(`GET /leaderboards/kantcopy`, { scope, filter });
+      const r = await api.getLeaderboardScoped('kantcopy', filter, scope, 50);
       log.bout('200 /leaderboards/concentration', `${r.entries.length} entrées`);
       log.explain(`classement ${scope}/${filter} chargé depuis Mongo`);
       setEntries(r.entries);

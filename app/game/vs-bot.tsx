@@ -1,23 +1,13 @@
 /**
  * @file game/vs-bot.tsx
- * @description Route for vs Bot mode in Kdoub. Redirects to the local game screen with bot mode parameters.
- * @author Idriss Kriouile
- * @date 2026-04-05
- * @project SallyCards - Kdoub
+ * @description Route for vs Bot mode in Kant Copy. Redirects to the solo Kant game (vs IA).
+ * @project SallyCards - Kant Copy
  */
 
-import { useEffect } from 'react';
 import { Redirect } from 'expo-router';
 
 export default function VsBotRedirect() {
-  // Log when the vs-bot redirect route mounts
-  useEffect(() => {
-    console.log('[Kdoub/VsBotRedirect] Component mounted');
-    console.log('[Kdoub/VsBotRedirect] Navigating to /game/local?mode=bot&botCount=1');
-  }, []);
-
-  // Immediately redirect to the local game screen with bot configuration
-  return <Redirect href="/game/local?mode=bot&botCount=1" />;
+  return <Redirect href="/game/solo?variant=vs-ai" />;
 }
 
-/* === End of game/vs-bot.tsx — Kdoub — SallyCards === */
+/* === End of game/vs-bot.tsx — Kant Copy — SallyCards === */
