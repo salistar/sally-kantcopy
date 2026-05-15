@@ -26,7 +26,7 @@ import { logger } from '../src/utils/logger';
 SplashScreen.preventAutoHideAsync().catch(() => {});
 setTimeout(() => { SplashScreen.hideAsync().catch(() => {}); }, 400);
 
-console.log('[Concentration/_layout] module loaded');
+console.log('[Kantcopy/_layout] module loaded');
 const log = logger.scoped('_layout');
 
 function RootStackInner() {
@@ -54,7 +54,7 @@ function RootStackInner() {
 }
 
 export default function RootLayout() {
-  console.log('[Concentration/_layout] RootLayout rendering');
+  console.log('[Kantcopy/_layout] RootLayout rendering');
   log.screen('RootLayout rendering');
 
   const [fontsLoaded] = useFonts({

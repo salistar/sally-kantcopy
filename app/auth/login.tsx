@@ -37,45 +37,45 @@ export default function LoginScreen() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    console.log('[Concentration/LoginScreen] Component mounted');
+    console.log('[Kantcopy/LoginScreen] Component mounted');
   }, []);
 
   const handleLogin = async () => {
     if (!email || !password) {
-      console.log('[Concentration/LoginScreen] Validation failed: empty email or password');
+      console.log('[Kantcopy/LoginScreen] Validation failed: empty email or password');
       Alert.alert(t('error'), t('fillAllFields'));
       return;
     }
     setLoading(true);
-    console.log('[Concentration/LoginScreen] State update: loading = true');
+    console.log('[Kantcopy/LoginScreen] State update: loading = true');
     try {
-      console.log('[Concentration/LoginScreen] Fetching login...');
+      console.log('[Kantcopy/LoginScreen] Fetching login...');
       await api.login(email, password, { gameType: 'kantcopy' });
-      console.log('[Concentration/LoginScreen] Login successful');
+      console.log('[Kantcopy/LoginScreen] Login successful');
       router.replace('/(tabs)');
     } catch (e: any) {
-      console.error('[Concentration/LoginScreen] Error:', e);
+      console.error('[Kantcopy/LoginScreen] Error:', e);
       Alert.alert(t('error'), e.message || t('loginError'));
     } finally {
       setLoading(false);
-      console.log('[Concentration/LoginScreen] State update: loading = false');
+      console.log('[Kantcopy/LoginScreen] State update: loading = false');
     }
   };
 
   const handleGuest = async () => {
     setLoading(true);
-    console.log('[Concentration/LoginScreen] State update: loading = true');
+    console.log('[Kantcopy/LoginScreen] State update: loading = true');
     try {
-      console.log('[Concentration/LoginScreen] Fetching guest session...');
+      console.log('[Kantcopy/LoginScreen] Fetching guest session...');
       await api.createGuestSession();
-      console.log('[Concentration/LoginScreen] Guest session created');
+      console.log('[Kantcopy/LoginScreen] Guest session created');
       router.replace('/(tabs)');
     } catch (e: any) {
-      console.error('[Concentration/LoginScreen] Error:', e);
+      console.error('[Kantcopy/LoginScreen] Error:', e);
       Alert.alert(t('error'), e.message || t('guestError'));
     } finally {
       setLoading(false);
-      console.log('[Concentration/LoginScreen] State update: loading = false');
+      console.log('[Kantcopy/LoginScreen] State update: loading = false');
     }
   };
 
@@ -96,7 +96,7 @@ export default function LoginScreen() {
             style={s.input}
             value={email}
             onChangeText={(val) => {
-              console.log('[Concentration/LoginScreen] State update: email =', val);
+              console.log('[Kantcopy/LoginScreen] State update: email =', val);
               setEmail(val);
             }}
             placeholder="demo@sallycards.com"
@@ -110,7 +110,7 @@ export default function LoginScreen() {
             style={s.input}
             value={password}
             onChangeText={(val) => {
-              console.log('[Concentration/LoginScreen] State update: password = [hidden]');
+              console.log('[Kantcopy/LoginScreen] State update: password = [hidden]');
               setPassword(val);
             }}
             placeholder="••••••••"

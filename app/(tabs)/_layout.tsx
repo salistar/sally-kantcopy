@@ -22,7 +22,7 @@ export default function TabsLayout() {
   // Hook: Access translation function for localized tab titles
   const { t } = useTranslation();
 
-  console.log('[Concentration/TabsLayout] Rendering tab navigator');
+  console.log('[Kantcopy/TabsLayout] Rendering tab navigator');
 
   return (
     <Tabs
