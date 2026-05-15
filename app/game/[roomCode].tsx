@@ -34,7 +34,7 @@ import { useTheme } from '../../src/contexts/AppProviders';
 import { logger } from '../../src/utils/logger';
 import { APP_CONFIG } from '../../src/config/app.config';
 import { SOCKET_URL } from '../../shared/api';
-import * as Engine from '../../src/game/memoryEngine';
+import * as Engine from '../../src/game/kantcopyEngine';
 
 const log = logger.scoped('GameScreen');
 const ME = 'p1';
