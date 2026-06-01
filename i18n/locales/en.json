@@ -81,7 +81,7 @@
   "challengeDesc": "Find all pairs in under 30 moves. 50 bonus coins!",
   "startChallenge": "Start Challenge",
   "vsBot": "vs Bot",
-  "localPlay": "Local",
+  "localPlay": "Local play",
   "light": "Light",
   "dark": "Dark",
   "system": "System",
@@ -234,5 +234,11 @@
       "again": "Redeal",
       "continue": "See hands"
     }
-  }
+  },
+  "diffEasy": "Easy",
+  "diffMedium": "Medium",
+  "diffHard": "Hard",
+  "drawsShort": "D",
+  "yourMove": "Your move",
+  "wallet": "Wallet"
 }

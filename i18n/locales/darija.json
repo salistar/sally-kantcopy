@@ -234,5 +234,11 @@
       "again": "وزع من جديد",
       "continue": "شوف الأيدي"
     }
-  }
+  },
+  "diffEasy": "ساهل",
+  "diffMedium": "متوسط",
+  "diffHard": "صعيب",
+  "drawsShort": "ت",
+  "yourMove": "دورك",
+  "wallet": "البورس"
 }

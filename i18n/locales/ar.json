@@ -234,5 +234,11 @@
       "again": "إعادة التوزيع",
       "continue": "انظر إلى الأيدي"
     }
-  }
+  },
+  "diffEasy": "سهل",
+  "diffMedium": "متوسط",
+  "diffHard": "صعب",
+  "drawsShort": "ت",
+  "yourMove": "دورك",
+  "wallet": "المحفظة"
 }
