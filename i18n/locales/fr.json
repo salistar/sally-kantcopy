@@ -178,7 +178,8 @@
     "shortVoleur": "Voleur",
     "shortVoleurSub": "Tout le monde vole",
     "shortAi": "Solo IA",
-    "shortAiSub": "Entraînement"
+    "shortAiSub": "Entraînement",
+    "shortTriplets": "Triplets"
   },
   "variants": {
     "title": "Choix de la variante",
@@ -204,7 +205,8 @@
     "unavailableBody": "Cette variante est multijoueur. Utilise Créer/Rejoindre depuis l'accueil.",
     "restart": "Recommencer",
     "playAgain": "Rejouer",
-    "quit": "Quitter"
+    "quit": "Quitter",
+    "scoreLabel": "SCORE"
   },
   "kant": {
     "subtitle": "Score {{score}} — cible {{target}}",
@@ -234,5 +236,14 @@
       "again": "Redistribuer",
       "continue": "Voir les mains"
     }
-  }
+  },
+  "diffEasy": "Facile",
+  "diffMedium": "Moyen",
+  "diffHard": "Difficile",
+  "drawsShort": "N",
+  "slide3": {
+    "title": "Bots IA"
+  },
+  "wallet": "Portefeuille",
+  "yourMove": "À ton tour"
 }

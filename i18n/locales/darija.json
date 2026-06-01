@@ -178,7 +178,8 @@
     "shortVoleur": "الشفار",
     "shortVoleurSub": "الكل كيسرق",
     "shortAi": "ضد الذكاء",
-    "shortAiSub": "تمرين"
+    "shortAiSub": "تمرين",
+    "shortTriplets": "ثلاثيات"
   },
   "variants": {
     "title": "اختار النوع",
@@ -204,7 +205,8 @@
     "unavailableBody": "هاد النوع متعدد اللاعبين. استعمل صاوب/دخل.",
     "restart": "عاود",
     "playAgain": "عاود اللعب",
-    "quit": "خرج"
+    "quit": "خرج",
+    "scoreLabel": "النقط"
   },
   "kant": {
     "subtitle": "النقط {{score}} — الهدف {{target}}",
@@ -240,5 +242,8 @@
   "diffHard": "صعيب",
   "drawsShort": "ت",
   "yourMove": "دورك",
-  "wallet": "البورس"
+  "wallet": "البورس",
+  "slide3": {
+    "title": "روبوهات ذكية"
+  }
 }

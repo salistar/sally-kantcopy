@@ -105,7 +105,7 @@
   "createSub": "2 to 10 players",
   "join": "Join",
   "joinSub": "By code or list",
-  "vsGemini": "vs Bot",
+  "vsGemini": "vs Gemini",
   "vsGeminiSub": "Expert AI",
   "dailyChallengeReward": "+{{coins}} coins",
   "simulation": "Simulation",
@@ -172,13 +172,14 @@
   "home": {
     "playCta": "Play a game",
     "playCtaSub": "8 variants — solo + multiplayer",
-    "soloBadge": "KANT COPY",
+    "soloBadge": "MEMORY",
     "shortClassic": "Classic",
     "shortClassicSub": "4 cards, signal",
     "shortVoleur": "Thief",
     "shortVoleurSub": "Anyone steals",
     "shortAi": "Solo AI",
-    "shortAiSub": "Training"
+    "shortAiSub": "Training",
+    "shortTriplets": "Triplets"
   },
   "variants": {
     "title": "Choose variant",
@@ -204,7 +205,8 @@
     "unavailableBody": "This variant is multiplayer. Use Create/Join from home.",
     "restart": "Restart",
     "playAgain": "Play again",
-    "quit": "Quit"
+    "quit": "Quit",
+    "scoreLabel": "SCORE"
   },
   "kant": {
     "subtitle": "Score {{score}} — target {{target}}",
@@ -240,5 +242,8 @@
   "diffHard": "Hard",
   "drawsShort": "D",
   "yourMove": "Your move",
-  "wallet": "Wallet"
+  "wallet": "Wallet",
+  "slide3": {
+    "title": "AI Bots"
+  }
 }
