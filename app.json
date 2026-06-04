@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Kant Copy",
+    "name": "Sally Kant Copy",
     "slug": "kantcopy",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -49,7 +49,7 @@
         }
       ]
     ],
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "extra": {
       "eas": {
         "projectId": "sallycards-kantcopy"
